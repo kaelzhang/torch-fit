@@ -3,9 +3,15 @@
 [![](https://img.shields.io/pypi/v/torch-fit.svg)](https://pypi.org/project/torch-fit/)
 [![](https://img.shields.io/pypi/l/torch-fit.svg)](https://github.com/kaelzhang/torch-fit)
 
+ARCHIVED, because there is already one for you:
+
+https://github.com/ncullen93/torchsample
+
+****
+
 # torch-fit
 
-`Keras.Model.fit`-like torch fit implementation
+`Keras.Model::fit`-like torch fit implementation
 
 ## Install
 
@@ -21,9 +27,10 @@ from torch_fit import fit
 model = MyPyTorchModule()
 
 history = fit(
-  model,
-  loss='mse',
-  metrics='mae'
+    model,
+    loss='mse',
+    metrics='mae',
+    epochs=100
 )
 ```
 

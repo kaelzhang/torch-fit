@@ -9,7 +9,7 @@ from torch_fit import __version__
 # README file and 2) it's easier to type in the README file than to put a raw
 # string in below ...
 def read(fname):
-    return open(Path(__file__).parent / 'docs' / 'README.md').read()
+    return open(Path(__file__).parent / 'README.md').read()
 
 
 def read_requirements(filename):
